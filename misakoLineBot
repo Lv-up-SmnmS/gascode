@@ -1,5 +1,5 @@
-var CHANNEL_ACCESS_TOKEN = '9FBOX+d1v68XlNxA+2XbCkQ8lqmg/ucbMwFHY/L4MG+ScjnbejMzc1/AinJNnVxtIVBBg2bzI2gvp/h4gtgpL0JDxUFIPHX5G+40VTGdzJ+hSYY2aouwTNPHRZy8w4XJilRBmYu+044jZgvcToCEDwdB04t89/1O/w1cDnyilFU='; 
-var USER_ID = 'U14153b348adabca5dcca99dc4bd9d026';
+var CHANNEL_ACCESS_TOKEN = '<<access-token>>'; 
+var USER_ID = '<<user-id>>';
 var sheet = SpreadsheetApp.getActiveSheet();
 var lastRow = sheet.getLastRow();
 var today = Utilities.formatDate(new Date(), "JST", "yyyy/MM/dd");
